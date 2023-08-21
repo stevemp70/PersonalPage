@@ -47,6 +47,7 @@ h1{
 .back{
     background: none;
     font-size: 1rem;
+    color: black;
 }
 
 h2{
@@ -101,7 +102,7 @@ h2{
     }
     .h2div{
         width: 65vw;
-        top: 75px;
+        top: 70px;
     }
     h2{
         font-size: 1.1rem;
