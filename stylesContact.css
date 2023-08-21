@@ -3,7 +3,7 @@ button{
 }
 body{
     transition:  0.2s all ease-in-out;
-    background-color: rgb(255, 255, 214);
+    background-color: rgb(250, 250, 165);
 }
 *{
     font-family: 'Albert Sans';
