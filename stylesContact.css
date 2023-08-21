@@ -88,7 +88,7 @@ h2{
 }
 
 .bubble{
-    background-color: rgb(209, 209, 209);
+    background-image: linear-gradient(rgb(209, 209, 209),rgb(190, 190, 190));
     padding: 10px;
     border-radius: 5px;
     position: relative;

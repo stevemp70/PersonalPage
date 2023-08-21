@@ -106,7 +106,7 @@ h2{
 }
 
 .linkedin, .merit, .x{
-    background-color: rgb(209, 209, 209);
+    background-image: linear-gradient(rgb(209, 209, 209),rgb(190, 190, 190));
     width: 230px;
     height: 100px;
     order: 2;

@@ -58,6 +58,10 @@ h2{
     font-size: 1.3rem;
 }
 
+p{
+    font-size: 1.1rem;
+}
+
 @media (max-width: 800px) {
     .h2div{
         width: 65vw;
@@ -92,7 +96,7 @@ h2{
 }
 
 .bubble{
-    background-color: rgb(209, 209, 209);
+    background-image: linear-gradient(rgb(209, 209, 209),rgb(190, 190, 190));
     width: 65vw;
     height: fit-content;
     padding: 20px;

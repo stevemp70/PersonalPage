@@ -53,7 +53,7 @@ h1{
 }
 
 .resBlock{
-    background-color: rgb(209, 84, 84);
+    background-image: linear-gradient(rgb(209, 84, 84),rgb(187, 63, 63));
     height: 33.333%;
     width: 100%;
     text-align: center;
@@ -84,7 +84,7 @@ h1{
 }
 
 .abtBlock{
-    background-color: rgb(71, 173, 71);
+    background-image: linear-gradient(rgb(71, 173, 71),rgb(55, 143, 55));
     height: 33.333%;
     width: 33.333%;
     text-align: center;
@@ -113,7 +113,7 @@ h1{
 }
 
 .conBlock{
-    background-color: yellow;
+    background-image:linear-gradient(yellow, rgb(202, 182, 5));
     height: 33.333%;
     width: 50%;
     text-align: center;
@@ -131,7 +131,7 @@ h1{
     color: black;
 }
 #cn:hover{
-    background-color: rgb(255, 255, 214);
+    background-color: rgb(250, 250, 165);
     color: rgb(150, 150, 0);
     font-weight: 600;
 }
@@ -140,7 +140,7 @@ h1{
 }
 
 .lnkBlock{
-    background-color: teal;
+    background-image:linear-gradient(teal, rgb(0, 113, 128));
     height: 33.333%;
     width: 33.333%;
     text-align: center;
@@ -167,7 +167,7 @@ h1{
     font-size: 1.4rem;
 }
 
-.artBlock{
+/* .artBlock{
     background-color: pink;
     height: 33.333%;
     width: 33.333%;
@@ -193,10 +193,10 @@ h1{
 }
 #at:hover p{
     font-size: 1.4rem;
-}
+} */
 
 .refBlock{
-    background-color: orange;
+    background-image:linear-gradient(orange,rgb(207, 127, 6));
     height: 33.333%;
     width: 50%;
     text-align: center;
