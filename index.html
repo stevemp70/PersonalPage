@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
+    <title>Steven DiResta</title>
+</head>
+<body id="bodC">
+    <h1>
+        Steven DiResta
+    </h1>
+
+
+    <div class="mainContainer">
+        <a href="resume.html" class="resBlock">
+            <button id="rs" type="submit">
+                <p class>
+                RÉSUMÉ
+                </p>
+            </button>
+        </a>
+    
+        <a href="about.html" class="abtBlock">
+            <button id="ab" type="submit">
+                <p class>
+                ABOUT
+                </p>
+            </button>
+        </a>
+
+        <a href="contact.html" class="conBlock">
+            <button id="cn" type="submit">
+                <p class>
+                CONTACT
+                </p>
+            </button>
+        </a>
+
+        <a href="links.html" class="lnkBlock">
+            <button id="lk" type="submit">
+                <p>
+                LINKS
+                </p>
+            </button>
+        </a>
+
+        <a href="references.html" class="refBlock">
+            <button id="rf" type="submit">
+                <p>
+                REFERENCES
+                </p>
+            </button>
+        </a>
+        
+        <!-- <a href="artwork.html" class="artBlock">
+            <button id="at" type="submit">
+                <p>
+                ARTWORK
+                </p>   
+            </button>
+        </a> -->
+
+        
+
+    </div>
+    
+    <script>
+        document.getElementById("rs").addEventListener("mouseover", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(255, 163, 163)';
+        });
+        document.getElementById("rs").addEventListener("mouseout", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(226, 226, 226)';
+        });
+
+        document.getElementById("ab").addEventListener("mouseover", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(195, 241, 195)';
+        });
+        document.getElementById("ab").addEventListener("mouseout", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(226, 226, 226)';
+        });
+
+        document.getElementById("cn").addEventListener("mouseover", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(255, 255, 214)';
+        });
+        document.getElementById("cn").addEventListener("mouseout", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(226, 226, 226)';
+        });
+
+        document.getElementById("lk").addEventListener("mouseover", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(217, 255, 255)';
+        });
+        document.getElementById("lk").addEventListener("mouseout", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(226, 226, 226)';
+        });
+
+        // document.getElementById("at").addEventListener("mouseover", function(){
+        //     document.getElementById("bodC").style.backgroundColor= 'rgb(250, 209, 217)';
+        // });
+        // document.getElementById("at").addEventListener("mouseout", function(){
+        //     document.getElementById("bodC").style.backgroundColor= 'rgb(226, 226, 226)';
+        // });
+
+        document.getElementById("rf").addEventListener("mouseover", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(240, 215, 164)';
+        });
+        document.getElementById("rf").addEventListener("mouseout", function(){
+            document.getElementById("bodC").style.backgroundColor= 'rgb(226, 226, 226)';
+        });
+    </script>
+
+
+</body>
+</html>

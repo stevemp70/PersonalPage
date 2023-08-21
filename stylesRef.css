@@ -1,0 +1,115 @@
+button{
+    border: none;
+}
+body{
+    transition:  0.2s all ease-in-out;
+    background-color: rgb(240, 215, 164);
+}
+*{
+    font-family: 'Albert Sans';
+}
+
+.headDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.h2div{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(209, 209, 209);
+    width: 300px;
+    position: absolute;
+    top:90px;
+    z-index: 4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: baseline;
+}
+
+h1{
+    width: 40vw;
+    background: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top:0;
+    position: absolute;
+    font-size: 20pt;
+    user-select: none;
+    z-index: 5;
+}
+
+.back{
+    background: none;
+    font-size: 1rem;
+}
+
+h2{
+    color:orange;
+    background-color: none;
+    height: 100%;
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 800px) {
+    .h2div{
+        width: 200px;
+        top: 70px;
+    }
+    h2{
+        font-size: 1.1rem;
+    }
+    h1{
+        font-size: 1.3rem;
+        width: 65vw;
+    }
+    .bubble{
+        width: 80%;
+    }
+}
+
+.mainContainer{
+    background-color:none;
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.bubble{
+    background-color: rgb(209, 209, 209);
+    width: 65vw;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s box-shadow;
+}
+
+.linkDec{
+    text-decoration: none;
+    color: rgb(150, 150, 0);
+    font-weight: 600;
+    padding: 0px;
+}
+
+.linkDec:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,229 @@
+button{
+    border: none;
+}
+body{
+    transition:  0.2s all ease-in-out;
+    background: rgb(226, 226, 226);
+}
+
+*{
+    font-family: 'Albert Sans';
+}
+p{
+    font-size: 14pt;
+    transition: font-size 0.1s ease-in-out;
+}
+
+
+h1{
+    width: 40vw;
+    background: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    bottom: 10px;
+    position: relative;
+    font-size: 20pt;
+    user-select: none;
+    z-index: 5;
+}
+
+.mainContainer{
+    position: relative;
+    margin: -10px auto;
+    top: 15vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+    width: 450px;
+    height: 450px;
+    z-index: 10;
+    border: 10px solid white;
+    border-radius: 9px;
+}
+
+@media (max-width: 600px) {
+    .mainContainer{
+        width: 85%;
+        top: 5vh;
+    }
+}
+
+.resBlock{
+    background-color: rgb(209, 84, 84);
+    height: 33.333%;
+    width: 100%;
+    text-align: center;
+    flex-grow: 4;
+    order: 1;
+    transition: background-color, 0.2s ease-in-out;
+    transition: font-weight 0s ease-in-out;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+#rs{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: none;
+    position: relative;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    color: black;
+}
+#rs:hover{
+    background-color: rgb(255, 163, 163);
+    color: rgb(209, 84, 84);
+    font-weight: 600;
+}
+#rs:hover p{
+    font-size: 1.4rem;
+}
+
+.abtBlock{
+    background-color: rgb(71, 173, 71);
+    height: 33.333%;
+    width: 33.333%;
+    text-align: center;
+    flex-grow: 1;
+    order: 4;
+    transition: background-color, 0.2s ease-in-out;
+    transition: font-weight 0s ease-in-out;
+    border-bottom-left-radius: 7px;
+}
+#ab{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: none;
+    position: relative;
+    border-bottom-left-radius: 7px;
+    color: black;
+}
+#ab:hover{
+    background-color: rgb(195, 241, 195);
+    color: rgb(71, 173, 71);
+    font-weight: 600;
+}
+#ab:hover p{
+    font-size: 1.4rem;
+}
+
+.conBlock{
+    background-color: yellow;
+    height: 33.333%;
+    width: 50%;
+    text-align: center;
+    flex-grow: 2;
+    order: 2;
+    transition: background-color, 0.2s ease-in-out;
+    transition: font-weight 0s ease-in-out;
+}
+#cn{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: none;
+    position: relative;
+    color: black;
+}
+#cn:hover{
+    background-color: rgb(255, 255, 214);
+    color: rgb(150, 150, 0);
+    font-weight: 600;
+}
+#cn:hover p{
+    font-size: 1.4rem;
+}
+
+.lnkBlock{
+    background-color: teal;
+    height: 33.333%;
+    width: 33.333%;
+    text-align: center;
+    flex-grow: 1;
+    order: 4;
+    transition: background-color, 0.2s ease-in-out;
+    transition: font-weight 0s ease-in-out;
+    border-bottom-right-radius: 7px;
+}
+#lk{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: none;
+    position: relative;
+    color: black;
+}
+#lk:hover{
+    background-color: rgb(217, 255, 255);
+    color: teal;
+    font-weight: 600;
+}
+#lk:hover p{
+    font-size: 1.4rem;
+}
+
+.artBlock{
+    background-color: pink;
+    height: 33.333%;
+    width: 33.333%;
+    text-align: center;
+    flex-grow: 1;
+    order: 5;
+    transition: background-color, 0.2s ease-in-out;
+    transition: font-weight 0s ease-in-out;
+    border-bottom-right-radius: 7px;
+}
+#at{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: none;
+    position: relative;
+    color: black;
+}
+#at:hover{
+    background-color: rgb(250, 209, 217);
+    color: rgb(236, 140, 156);
+    font-weight: 600;
+}
+#at:hover p{
+    font-size: 1.4rem;
+}
+
+.refBlock{
+    background-color: orange;
+    height: 33.333%;
+    width: 50%;
+    text-align: center;
+    flex-grow: 2;
+    order: 3;
+    transition: background-color, 0.2s ease-in-out;
+    transition: font-weight 0s ease-in-out;
+}
+#rf{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: none;
+    position: relative;
+    color: black;
+}
+#rf:hover{
+    background-color: rgb(240, 215, 164);
+    color: orange;
+    font-weight: 600;
+}
+#rf:hover p{
+    font-size: 1.4rem;
+}
+
+@media (max-width: 280px) {
+    p{
+        font-size: 1rem;
+    }
+}
