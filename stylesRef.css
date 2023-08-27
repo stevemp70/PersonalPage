@@ -66,13 +66,16 @@ p{
     .h2div{
         width: 65vw;
         top: 75px;
+        position: fixed;
     }
     h2{
         font-size: 1.1rem;
     }
     h1{
         font-size: 1.3rem;
-        width: 65vw;
+        width: 100vw;
+        border-radius: 15px;
+        position: fixed;
     }
     .bubble{
         width: 80%;

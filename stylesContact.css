@@ -77,13 +77,14 @@ h2{
         align-items: center;
     }
     h1{
-        width: 60vw;
-        font-size: 1rem;
+        width: 100vw;
+        font-size: 1.3rem;
+        border-radius: 15px;
     }
     .h2div{
         width: 65vw;
-        position: absolute;
-        top: 70px;
+        position: fixed;
+        top: 75px;
     }
 }
 
@@ -97,30 +98,30 @@ h2{
 }
 
 .One{
-    width: 50vw;
+    width: 80vw;
     font-size: 1.2rem;
     order: 1;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.Two{
+/* .Two{
     width: 50vw;
     font-size: 1.1rem;
     order: 3;
     display: flex;
     justify-content: center;
     padding: 20px;
-}
+} */
 
 .mid{
-    width: 50vw;
+    width: 80vw;
     order: 2;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-form{
+/* form{
     max-width: 600px;
     background-color:none;
     display: flex;
@@ -246,4 +247,4 @@ input[type=email]::selection{
 #bigarea::selection{
     background-color: rgb(194, 175, 5);
     color: black;
-}
+} */

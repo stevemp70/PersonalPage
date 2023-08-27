@@ -77,7 +77,9 @@ h2{
     h1{
         height: 4.4vh;
         padding: 20px;
-        width: 65vw;
+        border-radius: 15px;
+        width: 100vw;
+        position: fixed;
     }
     .resContainer{
         top: 20vh;
@@ -103,6 +105,8 @@ h2{
     .h2div{
         width: 65vw;
         top: 70px;
+        position: fixed;
+        box-shadow:0px -30px 68px 0px rgba(0,0,0,0.5);
     }
     h2{
         font-size: 1.1rem;

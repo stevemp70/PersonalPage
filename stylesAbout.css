@@ -86,10 +86,16 @@ h2{
 @media (max-width: 600px) {
     h1{
         font-size: 1rem;
-        width: 60vw;
+        width: 100vw;
+        border-radius: 15px;
+        position: fixed;
     }
     .Block{
         font-size: 0.8rem;
+    }
+    .h2div{
+        position: fixed;
+        box-shadow:0px -30px 68px 0px rgba(0,0,0,0.75);
     }
 }
 
